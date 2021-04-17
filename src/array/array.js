@@ -22,3 +22,8 @@ console.log(
 var arrayObj = ["a", "b", "c", "d"];
 var newArrayObj = arrayObj.filter((val) => val != "a"); //
 console.log('Get all values from the array except \"a\" :', newArrayObj);
+
+//Array unshift method
+var arrayObjCar = ['BMW','BT']
+arrayObjCar.unshift('Audi')
+console.log('Add a new object(s) before the key -',arrayObjCar)
