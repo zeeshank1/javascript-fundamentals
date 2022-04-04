@@ -24,5 +24,14 @@ let printFullNameParam = function(fn, ln){
 
 printFullNameParam.call(namesTwo,"Zee","Kh");
 
+//apply
 printFullNameParam.apply(namesTwo,["Zee1","Kh1"]);
 
+//bind
+let newFun = printFullNameParam.bind(namesTwo,"Zee1b","Kh1b");
+
+//call or invoke latter, it is a new function 
+console.log(newFun);
+
+//callind bind method
+newFun();
