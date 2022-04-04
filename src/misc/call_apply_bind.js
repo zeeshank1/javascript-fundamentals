@@ -24,5 +24,5 @@ let printFullNameParam = function(fn, ln){
 
 printFullNameParam.call(namesTwo,"Zee","Kh");
 
-
+printFullNameParam.apply(namesTwo,["Zee1","Kh1"]);
 
