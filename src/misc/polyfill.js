@@ -36,4 +36,19 @@ Function.prototype.myBindParams = function(...args){
 let newFunMyBindParams = printNameParam.myBindParams(names,"indore");
 newFunMyBindParams();
 
+let printNameParamAdditionalParams = function(city, state){
+    console.log(this.firstName + "_"+city+"_"+state);
+}
+
+Function.prototype.myBindParamsAdditionalParam = function(...args){
+    let obj = this;//refering to the callee of this method i.e., printName
+    let params = args.slice(1);
+    return function(...argsTwo){
+        
+        obj.apply(args[0],[...params,...argsTwo]); // refere to the names object
+    }
+}
+
+let newFunMyBindParamsAdditionalParams = printNameParamAdditionalParams.myBindParamsAdditionalParam(names,"indore");
+newFunMyBindParamsAdditionalParams("M.P");
 
