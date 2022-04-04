@@ -16,3 +16,13 @@ let namesTwo = {
 
 //Function Borrowing
 names.printFullName.call(namesTwo);
+
+//Parameterized function
+let printFullNameParam = function(fn, ln){
+    console.log(fn+" "+ln);
+}
+
+printFullNameParam.call(namesTwo,"Zee","Kh");
+
+
+
