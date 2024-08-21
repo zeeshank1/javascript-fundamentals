@@ -1,16 +1,16 @@
-let names ={
-    firstName : "Zeeshan",
-    lastName : "Khan",
-    printFullName : function(){
-        console.log(this.firstName+ " "+this.lastName);
+let names = {
+    firstName: "Zeeshan",
+    lastName: "Khan",
+    printFullName: function () {
+        console.log(this.firstName + " " + this.lastName);
     }
 }
 
 names.printFullName();
 
 let namesTwo = {
-    firstName : "Sachin",
-    lastName : "Sharma"
+    firstName: "Sachin",
+    lastName: "Sharma"
 }
 
 
@@ -18,17 +18,17 @@ let namesTwo = {
 names.printFullName.call(namesTwo);
 
 //Parameterized function
-let printFullNameParam = function(fn, ln){
-    console.log(fn+" "+ln);
+let printFullNameParam = function (fn, ln) {
+    console.log(fn + " " + ln);
 }
 
-printFullNameParam.call(namesTwo,"Zee","Kh");
+printFullNameParam.call(namesTwo, "Zee", "Kh");
 
 //apply
-printFullNameParam.apply(namesTwo,["Zee1","Kh1"]);
+printFullNameParam.apply(namesTwo, ["Zee1", "Kh1"]);
 
 //bind
-let newFun = printFullNameParam.bind(namesTwo,"Zee1b","Kh1b");
+let newFun = printFullNameParam.bind(namesTwo, "Zee1b", "Kh1b");
 
 //call or invoke latter, it is a new function 
 console.log(newFun);

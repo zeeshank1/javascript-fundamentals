@@ -9,7 +9,7 @@ function Bike(color, model) {
   };
 }
 
-Bike.prototype.getDetailsViaPrototype = function(){
+Bike.prototype.getDetailsViaPrototype = function () {
   return `COLOR ${this.color} + MODEL ${this.model}`
 }
 

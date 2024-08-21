@@ -3,10 +3,10 @@
 
 
 //*This is function expression
-( function (){ console.log('IIFE example'); } )();
+(function () { console.log('IIFE example'); })();
 
 //*This is function declartion
-var namedFun = function(){
+var namedFun = function () {
     console.log('Function declartion example');
 }
 
