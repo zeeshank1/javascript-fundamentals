@@ -2,4 +2,4 @@
 
 ## Javascipt-concepts
 
-### Learning Javascipt concepts through small code-snippets
+### Learning Javascript concepts through theory and code-snippets
