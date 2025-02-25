@@ -1,4 +1,14 @@
 // 1. Closures: A function with access to its outer scope even after the outer function has returned
+/*
+Key Concepts Covered
+Closures for maintaining state across function calls.
+Promises and async/await for managing asynchronous operations.
+Object-Oriented Programming using ES6 class syntax.
+Functional Programming with array methods (map, filter, reduce).
+Destructuring and spread/rest operators for simplifying code.
+Modules (shown conceptually) for modularizing the application.
+*/
+
 function closureExample() {
     let count = 0;
 
