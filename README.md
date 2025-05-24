@@ -4,9 +4,9 @@
 
 ## Overview
 
-This repository is dedicated to helping you learn and understand core JavaScript concepts through both theoretical explanations and practical programming examples. Whether you're a beginner or looking to brush up on specific topics, you'll find helpful resources and sample code here.
+This repository is dedicated to learn and understand core JavaScript concepts through both theoretical explanations and practical programming examples. 
 
-## What You'll Find
+## Content 
 
 - **Theory:** Clear explanations of JavaScript fundamentals and advanced concepts.
 - **Examples:** Practical code samples demonstrating how each concept works.
