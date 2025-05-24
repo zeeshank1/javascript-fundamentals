@@ -1,6 +1,6 @@
 # JavaScript Concepts
 
-Welcome to the **JavaScript Concepts** repository!
+**JavaScript Concepts** repository!
 
 ## Overview
 
