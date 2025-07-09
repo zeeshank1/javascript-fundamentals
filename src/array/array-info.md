@@ -1,4 +1,4 @@
-JavaScript’s Array.prototype.sort() can behave unexpectedly with negative numbers (and numbers in general) if you're not using a compare function.
+JavaScript’s Array.prototype.sort() can behave unexpectedly with negative numbers (and numbers in general) if not using a compare function.
 
 🔥 Problem
 By default, sort() converts elements to strings and sorts them lexicographically (i.e., like words), not numerically.
