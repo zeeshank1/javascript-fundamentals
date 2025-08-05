@@ -24,7 +24,6 @@ This repository is dedicated to learn and understand core JavaScript concepts th
 - ES6+ Features (let/const, arrow functions, destructuring, etc.)
 - DOM Manipulation
 - Event Handling
-- And much more!
 
 ## How to Use This Repository
 
