@@ -35,4 +35,5 @@ This repository is dedicated to learn and understand core JavaScript concepts th
 ## Contributing
 
 Contributions are welcome! If you'd like to add new concepts, improve explanations, or provide additional examples, feel free to open an issue or submit a pull request.
+thank you.
 
