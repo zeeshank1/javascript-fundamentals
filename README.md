@@ -30,10 +30,10 @@ This repository is dedicated to learn and understand core JavaScript concepts th
 1. **Browse Topics:** Navigate through the folders and files to find topics you're interested in.
 2. **Read the Theory:** Start with the theory sections to gain an understanding of each concept.
 3. **Run the Code:** Try out the example programs to reinforce your learning.
-4. **Experiment:** Modify the examples and create your own programs to deepen your understanding.
+4. **Experiment:** Modify the examples and create your programs to deepen your understanding.
 
 ## Contributing
 
 Contributions are welcome! If you'd like to add new concepts, improve explanations, or provide additional examples, feel free to open an issue or submit a pull request.
-thank you.
+<br>Thank you.
 
