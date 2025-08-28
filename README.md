@@ -1,10 +1,8 @@
 # JavaScript Concepts
 
-**JavaScript Concepts** repository!
-
 ## Overview
 
-This repository is dedicated to learn and understand core JavaScript concepts through both theoretical explanations and practical programming examples. 
+This repository is dedicated to learn and understanding core JavaScript concepts through both theoretical explanations and practical programming examples. 
 
 ## Content 
 
